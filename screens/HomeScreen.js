@@ -79,11 +79,8 @@ function HomeScreen() {
       <ScrollView
         className="bg-gray-100"
         contentContainerStyle={{paddingBottom: 100}}>
-        {/*  Categories*/}
         <Categories />
-        {/*  End Categories*/}
 
-        {/*  Featured rows*/}
         {featuredCategories?.map(category => (
           <FeaturedRow
             key={category._id}
