@@ -1,8 +1,9 @@
 import React from 'react';
-import {TouchableOpacity, Image, View, Text} from 'react-native';
+import {Image, Text, TouchableOpacity, View} from 'react-native';
 import {MapPinIcon, StarIcon} from 'react-native-heroicons/mini';
 import {urlFor} from '../sanity';
 import {useNavigation} from '@react-navigation/native';
+
 const RestaurantCard = ({
   id,
   imgUrl,
