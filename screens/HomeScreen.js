@@ -2,17 +2,17 @@ import React, {useEffect, useLayoutEffect, useState} from 'react';
 import {
   Image,
   SafeAreaView,
-  TextInput,
-  Text,
-  View,
   ScrollView,
+  Text,
+  TextInput,
+  View,
 } from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import {
-  ChevronDownIcon,
-  UserIcon,
-  MagnifyingGlassIcon,
   AdjustmentsVerticalIcon,
+  ChevronDownIcon,
+  MagnifyingGlassIcon,
+  UserIcon,
 } from 'react-native-heroicons/outline';
 import Categories from '../components/Categories';
 import FeaturedRow from '../components/FeaturedRow';
@@ -79,11 +79,8 @@ function HomeScreen() {
       <ScrollView
         className="bg-gray-100"
         contentContainerStyle={{paddingBottom: 100}}>
-        {/*  Categories*/}
         <Categories />
-        {/*  End Categories*/}
 
-        {/*  Featured rows*/}
         {featuredCategories?.map(category => (
           <FeaturedRow
             key={category._id}

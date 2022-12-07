@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import {ScrollView} from 'react-native';
 import CategoryCard from './CategoryCard';
 import client, {urlFor} from '../sanity';
-import category from '../sanity/schemas/category';
 
 const Categories = () => {
   const [categories, setCategories] = useState([]);
