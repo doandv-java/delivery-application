@@ -44,7 +44,7 @@ const DeliveryScreen = () => {
           latitudeDelta: 0.005,
           longitudeDelta: 0.005,
         }}
-        className="flex-1 -mt-10 z-0"
+        className="flex-1 mt-10 z-0"
         mapType="standard">
         <Marker
           coordinate={{
@@ -62,14 +62,14 @@ const DeliveryScreen = () => {
 
       <SafeAreaView className="bg-white flex-row items-center space-x-5 h-28">
         <Image
-          source={{uri: 'https://links/papareact.com/wru'}}
+          source={{uri: 'https://links.papareact.com/wru'}}
           className="h-12 w-12 bg-gray-300 p-4 rounded-full ml-3"
         />
         <View className="flex-1">
           <Text className="text-lg">Ricing girl</Text>
           <Text className="text-gray-400">Your Rider</Text>
         </View>
-        <Text classname="text-[#00CCBB] text-lg mr-8 font-bold">Call</Text>
+        <Text className="text-[#00CCBB] text-lg mr-4  font-bold">Call</Text>
       </SafeAreaView>
     </View>
   );

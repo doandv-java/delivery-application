@@ -27,3 +27,9 @@ sanity init --coupon sonny2022
 #Blog(schema)
 
 ```
+4. Install react-native-maps
+
+```cmd
+yarn add react-native-maps --save
+
+```
